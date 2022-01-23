@@ -32,12 +32,12 @@ public class LifeCalendarController : ControllerBase
             {
                 var week = new WeekResponse();
 
-                date = date.AddDays(7);
-
                 week.Lived = date < now;
                 week.Date = date;
 
                 yearOfLife.Weeks[j] = week;
+
+                date = date.AddDays(7);
             }
 
             response.YearsOfLife[i] = yearOfLife;

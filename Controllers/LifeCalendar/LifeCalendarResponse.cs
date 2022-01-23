@@ -2,7 +2,7 @@ namespace life_calendar.Controllers.LifeCalendar;
 
 public class LifeCalendarResponse
 {
-    public YearOfLifeResponse[] YearsOfLife { get; set; } = new YearOfLifeResponse[90];
+    public YearOfLifeResponse[] YearsOfLife { get; set; } = new YearOfLifeResponse[91];
 
 }
 
