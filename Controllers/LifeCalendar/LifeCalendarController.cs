@@ -14,9 +14,8 @@ public class LifeCalendarController : ControllerBase
     }
 
     [HttpGet]
-    public LifeCalendarResponse Get()
+    public LifeCalendarResponse Get(DateTime date)
     {
-        var date = new DateTime(1991, 10, 21);
         var now = DateTime.Now;
 
         var response = new LifeCalendarResponse();

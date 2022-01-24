@@ -5,14 +5,14 @@
 .year-of-life .age {
     font-size: 10px;
     position:absolute;
-    margin-left: -10px;
+    margin-left: -15px;
 }
 
 .week-of-life {
     display: block;
     margin:1px;
     width: 10px;
-    height: 10px;;
+    height: 7px;;
     border: 1px solid black;    
 }
 

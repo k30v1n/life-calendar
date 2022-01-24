@@ -1,10 +1,10 @@
 <h1>Life Calendar</h1>
 
-<p *ngIf="!yearsOfLife"><em>Loading...</em></p>
+<p *ngIf="yearsOfLife.length == 0"><em>Loading...</em></p>
 
 <div>
   <div class="year-of-life" *ngFor="let yearOfLife of yearsOfLife">
-    <div class="age" *ngIf="yearOfLife.age === 0 || yearOfLife.age%5 === 0">
+    <div class="age" *ngIf="yearOfLife.age === 0 || yearOfLife.age % 2 === 0">
       {{yearOfLife.age}}
     </div>
     <div 
