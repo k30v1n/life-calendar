@@ -1,6 +1,8 @@
 # Life Calendar
 
-Life calendar application.
+90 years life calendar application based on [Wait But Why blog](https://waitbutwhy.com/2014/05/life-weeks.html) written by Tim Urban.
+
+![Life calendar from 1990](/life-calendar-1990.png)
 
 ## Dependencies
 - NET 6
