@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-namespace life_calendar.Controllers.LifeCalendar;
+namespace life_calendar.Controllers;
 
 [ApiController]
 [Route("[controller]")]

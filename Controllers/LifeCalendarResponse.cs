@@ -1,4 +1,4 @@
-namespace life_calendar.Controllers.LifeCalendar;
+namespace life_calendar.Controllers;
 
 public record LifeCalendarResponse(YearOfLifeResponse[] YearsOfLife);
 
