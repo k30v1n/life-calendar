@@ -1,20 +1,7 @@
 namespace life_calendar.Controllers.LifeCalendar;
 
-public class LifeCalendarResponse
-{
-    public YearOfLifeResponse[] YearsOfLife { get; set; } = new YearOfLifeResponse[91];
+public record LifeCalendarResponse(YearOfLifeResponse[] YearsOfLife);
 
-}
+public record YearOfLifeResponse(int Age, int Year, WeekResponse[] Weeks);
 
-public class YearOfLifeResponse
-{
-    public int Age { get; set; }
-    public int Year { get; set; }
-    public WeekResponse[] Weeks { get; set; } = new WeekResponse[52];
-}
-
-public class WeekResponse
-{
-    public bool Lived { get; set; }
-    public DateTime Date { get; set; }
-}
+public record WeekResponse(bool Lived, DateTime Date);
