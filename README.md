@@ -5,7 +5,7 @@
 ![Life calendar from 1990](/life-calendar-1990.png)
 
 ## Dependencies
-Built using a N-layer architecture because...why not ¯\_(ツ)_/¯ (also I was testing some stuff)
+Built using a N-layer architecture because...why not `¯\_(ツ)_/¯` (also I was testing some stuff)
 - NET 6
 - Node 12
 
